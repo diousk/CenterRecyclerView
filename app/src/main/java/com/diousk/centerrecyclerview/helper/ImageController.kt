@@ -2,7 +2,7 @@ package com.diousk.centerrecyclerview.helper
 
 import com.airbnb.epoxy.TypedEpoxyController
 import com.diousk.centerrecyclerview.data.Album
-import com.diousk.centerrecyclerview.imageHolder
+import com.diousk.centerrecyclerview.view.imageHolder
 
 class ImageController (
     private val callback: Callback

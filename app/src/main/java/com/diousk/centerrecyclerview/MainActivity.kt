@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity(), ImageController.Callback, ScrollListen
                 this
             )
         )
+        // LinearSnapHelper will try to locate at center when scroll
         snapHelper.attachToRecyclerView(rvImages)
         controller.setData(dataList)
     }
